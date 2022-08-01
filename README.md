@@ -1,1 +1,1 @@
-https://giogiuseppe.github.io/access-twitter/
+https://giogiuseppe.github.io/twitter/
