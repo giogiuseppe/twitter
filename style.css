@@ -27,6 +27,7 @@ body {
 
 .container {
     max-width: 600px;
+    height: 35rem;
     margin: auto;
     text-align: center;
     padding: 25px;
@@ -323,7 +324,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 135px;
+    margin-top: 115px !important;
 }
 
 .btn-voltar-grid {
