@@ -24,22 +24,37 @@
                 </div>
                 <div class="insira-dados-inscrever-se-center">
                     <i class="fa-solid fa-circle-user icon-usuario-style"></i>
-                    <input class="insira-dados-inscrever-se-style" type="text"
-                        placeholder="Nome">
+                    <input class="insira-dados-inscrever-se-style" type="text" placeholder="Nome">
                 </div>
                 <div class="insira-dados-inscrever-se-center">
                     <i class="fa-solid fa-envelope icon-e-mail-style"></i>
-                    <input class="insira-dados-inscrever-se-style" type="text"
-                        placeholder="E-mail">
+                    <input class="insira-dados-inscrever-se-style" type="text" placeholder="E-mail">
                 </div>
                 <div class="insira-dados-inscrever-se-center">
                     <i class="fa-solid fa-lock icon-senha-style"></i>
-                    <input class="insira-dados-inscrever-se-style" type="password"
-                        placeholder="Senha">
+                    <input class="insira-dados-inscrever-se-style" type="password" placeholder="Senha">
                 </div>
-                <div class="btn-inscrever-se-conta-center">
+                <!-- <div class="btn-inscrever-se-conta-center">
                     <a href="#" class="btn-inscrever-se-conta-style">Inscrever-se</a>
+                </div> -->
+                <div class="btn-inscrever-se-conta-center">
+                    <button class="btn-inscrever-se-conta-style" onclick="openModal()">Abrir</button>
                 </div>
+
+                <div class="modal-container">
+                    <div class="modal">
+                        <h2>Inscrição Realizada</h2>
+                        <div class="check">
+                            <i class="fa-regular fa-circle-check fa-2x"></i>
+                        </div>
+                        <div class="btn">
+                            <button class="btnClose" onclick="closeModal()">
+                                <i class="fa-solid fa-xmark fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="btn-voltar-container">
                     <div class="btn-voltar-grid">
                         <a href="../index.html">
@@ -52,5 +67,6 @@
         </div>
     </section>
 </body>
+<script src="../script.js"></script>
 
 </html>
