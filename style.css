@@ -349,6 +349,14 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+button:disabled {
+    background-color: #71767b;
+}
+
+button:disabled:hover {
+    background-color: #71767b;
+}
+
 .btn-inscrever-se-conta-style * {
     position: absolute;
     top: 50%;
