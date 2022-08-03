@@ -361,8 +361,28 @@ body {
     opacity: 0;
 }
 
+.text-check {
+    opacity: 0;
+    color: #fff;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.link-check {
+    width: 105px;
+    opacity: 0;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-check:hover {
+    color: #ccc;
+}
+
 .btn-inscrever-se-conta-style:focus {
-    width: 50px;
+    width: 45px;
     background-color: #44c00a;
     border-radius: 100%;
 }
@@ -372,6 +392,16 @@ body {
 }
 
 .btn-inscrever-se-conta-style:focus .icon {
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+.btn-inscrever-se-conta-style:focus .text-check {
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+.btn-inscrever-se-conta-style:focus .link-check {
     opacity: 1;
     transition-delay: .5s;
 }
@@ -432,19 +462,19 @@ body {
 }
 
 .btn-acessar-conta-style {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #0f1419;
+    position: relative;
+    width: 395px;
+    height: 45px;
     font-size: 15px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
-    width: 395px;
-    height: 45px;
-    border-radius: 9999px;
     background-color: #fff;
+    color: #0f1419;
+    border: none;
+    border-radius: 9999px;
     cursor: pointer;
+    transition: width .5s,
+        border-radius .5s;
 }
 
 .btn-acessar-conta-style:hover {
@@ -479,6 +509,63 @@ body {
     color: #fff;
     font-size: 13.5px;
     font-family: "Poppins", sans-serif;
+}
+
+.btn-acessar-conta-style * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .25s;
+}
+
+.icon {
+    opacity: 0;
+}
+
+.text-check {
+    opacity: 0;
+    color: #fff;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.link-check {
+    width: 110px;
+    opacity: 0;
+    color: #fff;
+    margin-top: 60px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-check:hover {
+    color: #ccc;
+}
+
+.btn-acessar-conta-style:focus {
+    width: 45px;
+    background-color: #44c00a;
+    border-radius: 100%;
+}
+
+.btn-acessar-conta-style:focus .text {
+    opacity: 0;
+}
+
+.btn-acessar-conta-style:focus .icon {
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+.btn-acessar-conta-style:focus .text-check {
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+.btn-acessar-conta-style:focus .link-check {
+    opacity: 1;
+    transition-delay: .5s;
 }
 
 /* RECUPERAR */
@@ -612,8 +699,17 @@ body {
     opacity: 0;
 }
 
+.text-check {
+    width: 260px;
+    opacity: 0;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
 .btn-recuperar-conta-style:focus {
-    width: 50px;
+    width: 45px;
     background-color: #44c00a;
     border-radius: 100%;
 }
@@ -623,6 +719,11 @@ body {
 }
 
 .btn-recuperar-conta-style:focus .icon {
+    opacity: 1;
+    transition-delay: .5s;
+}
+
+.btn-recuperar-conta-style:focus .text-check {
     opacity: 1;
     transition-delay: .5s;
 }
@@ -697,11 +798,31 @@ body {
         font-size: 15px;
         font-weight: bold;
         font-family: "Poppins", sans-serif;
-        width: 455px;
+        width: 308px;
         height: 45px;
         border-radius: 9999px;
         background-color: #fff;
         cursor: pointer;
+    }
+
+    .text-check {
+        opacity: 0;
+        color: #fff;
+        margin-top: 55px;
+        font-size: 13.5px;
+    }
+
+    .link-check {
+        width: 105px;
+        opacity: 0;
+        color: #fff;
+        margin-top: 60px;
+        font-size: 13.5px;
+        text-decoration: none;
+    }
+    
+    .link-check:hover {
+        color: #ccc;
     }
 
     .btn-inscrever-se-conta-style:hover {
@@ -710,7 +831,7 @@ body {
     }
 
     .btn-inscrever-se-conta-style:focus {
-        width: 50px;
+        width: 45px;
         background-color: #44c00a;
         border-radius: 100%;
     }
@@ -791,6 +912,37 @@ body {
         background-color: #e7e9ea;
     }
 
+    .text-check {
+        opacity: 0;
+        color: #fff;
+        margin-top: 55px;
+        font-size: 13.5px;
+    }
+
+    .link-check {
+        width: 105px;
+        opacity: 0;
+        color: #fff;
+        margin-top: 60px;
+        font-size: 13.5px;
+        text-decoration: none;
+    }
+    
+    .link-check:hover {
+        color: #ccc;
+    }
+
+    .btn-acessar-conta-style:hover {
+        transition: .5s;
+        background-color: #e7e9ea;
+    }
+
+    .btn-acessar-conta-style:focus {
+        width: 45px;
+        background-color: #44c00a;
+        border-radius: 100%;
+    }
+
     /* RECUPERAR */
 
     .title-recuperar-style {
@@ -836,16 +988,20 @@ body {
         font-size: 15px;
         font-weight: bold;
         font-family: "Poppins", sans-serif;
-        width: 300px;
+        width: 310px;
         height: 45px;
         border-radius: 9999px;
         background-color: #fff;
         cursor: pointer;
     }
 
-    .btn-recuperar-conta-style:hover {
-        transition: .5s;
-        background-color: #e7e9ea;
+    .text-check {
+        width: 260px;
+        opacity: 0;
+        color: #fff;
+        margin-top: 55px;
+        font-size: 13.5px;
+        padding-bottom: 30px;
     }
 
     .btn-recuperar-conta-style:hover {
@@ -854,7 +1010,7 @@ body {
     }
 
     .btn-recuperar-conta-style:focus {
-        width: 50px;
+        width: 45px;
         background-color: #44c00a;
         border-radius: 100%;
     }
