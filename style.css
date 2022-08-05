@@ -350,6 +350,7 @@ body {
 }
 
 button:disabled {
+    cursor: default;
     background-color: #71767b;
 }
 
@@ -517,6 +518,15 @@ button:disabled:hover {
     color: #fff;
     font-size: 13.5px;
     font-family: "Poppins", sans-serif;
+}
+
+button:disabled {
+    cursor: default;
+    background-color: #71767b;
+}
+
+button:disabled:hover {
+    background-color: #71767b;
 }
 
 .btn-acessar-conta-style * {
@@ -693,6 +703,15 @@ button:disabled:hover {
     color: #fff;
     font-size: 13.5px;
     font-family: "Poppins", sans-serif;
+}
+
+button:disabled {
+    cursor: default;
+    background-color: #71767b;
+}
+
+button:disabled:hover {
+    background-color: #71767b;
 }
 
 .btn-recuperar-conta-style * {
