@@ -270,6 +270,19 @@ body {
     max-width: none;
 }
 
+.title-inscrever-se-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-inscrever-se-style {
+    color: #e7e9ea;
+    font-size: 31px;
+    font-family: "Poppins", sans-serif;
+}
+
 .insira-dados-inscrever-se-center {
     display: flex;
     align-items: center;
@@ -455,6 +468,19 @@ button:disabled:hover {
     vertical-align: middle;
     width: 100%;
     max-width: none;
+}
+
+.title-acessar-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-acessar-style {
+    color: #e7e9ea;
+    font-size: 31px;
+    font-family: "Poppins", sans-serif;
 }
 
 .insira-dados-acessar-center {
