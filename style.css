@@ -51,12 +51,35 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+    margin: 50px;
 }
 
 .title-style {
+    position: absolute;
     color: #e7e9ea;
     font-size: 31px;
     font-family: "Poppins", sans-serif;
+    animation: morph-effect 10s infinite ease-in-out;
+}
+
+.title-style:nth-child(1) {
+    animation-delay: -10s;
+}
+
+.title-style:nth-child(2) {
+    animation-delay: -5s;
+}
+
+@keyframes morph-effect {
+    0%, 20%, 100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+    40%, 80% {
+        filter: blur(16px);
+        opacity: 0;
+    }
 }
 
 .acesso-externo-container {
