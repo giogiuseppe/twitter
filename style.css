@@ -611,6 +611,13 @@ button:disabled:hover {
 
 /* RECUPERAR */
 
+.title-recuperar-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .title-recuperar-style {
     color: #e7e9ea;
     font-size: 31px;
